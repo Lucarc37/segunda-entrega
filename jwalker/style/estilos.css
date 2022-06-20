@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&display=swap');
+
+header, footer {
+    background-color: rgb(107, 32, 24);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    z-index: 20;
+}
+
+.logo{
+    border-radius: 10px;
+}
+
+
+nav ul{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    padding: 40px 20px 40px 20px;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+}
+
+.origenes{
+    background-color: rgba(255, 250, 205, 0.642);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    padding: 20px 50px 20px 402px;
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+h2{
+    font-family:  'Roboto', sans-serif;
+    padding: 15px 90px 15px 260px;
+    border: 10px double;
+    margin: 10px 15px 10px 15px;
+    color: rgb(13, 12, 8);
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+section article{
+    background-color: rgba(255, 250, 205, 0.842);
+    text-align: center;
+    font-family:  'Tiro Devanagari Hindi', serif;
+}
+
+h3{
+    font-size: large;
+    font-family:  'Plus Jakarta Sans', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    color: darkgreen
+}
+
+h4{
+    font-size: larger;
+    font-family:  'Roboto', sans-serif;
+    text-align: center;
+}
+
+p{
+    font-size: medium;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+img{
+    border-radius: 1cm;
+    border: none 10px;
+}
+
+body{
+    background-color: beige;
+    background-image: url("../img/logo\ gold.png");
+    background-size: 600px;
+}
+
+.pagina{
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-evenly;
+}
+
+.button{
+    position: relative;
+    width: 70px;
+    height: 30px;
+    font-size: 10px;
+    background-color: #202231;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: width .5s;
+    border-radius: .5s;
+}
+.button *{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity .25s;
+}
+.icon{
+    opacity: 0;
+}
+.button:focus{
+    width: 30px;
+    background-color: #44c08a;
+    border-radius: 50%;
+}
+.button:focus .text {
+    opacity: 0;
+}
+.button:focus .icon {
+    opacity: 1;
+    transition-delay: .5s;
+}
+
+
+.button2{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 50px;
+    border: 3px solid #3c67e3;
+    border-radius: 10px;
+}
+.button2 :hover{
+    animation: pulsate 1s ease-in-out;
+}
+@keyframes pulsate{
+    0%{
+        box-shadow: 
+        0 0 25px #5ddcff
+        0 0 50px #4e00c2
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
